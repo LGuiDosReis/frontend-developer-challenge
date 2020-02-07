@@ -12,3 +12,7 @@ O desafio consiste no *layout* de uma *landing page* com uma grade de produtos e
 
 Aqui terá os arquivos do desafio de Luiz Guilherme Mendonça dos Reis.
 Junto disto também conterá commits feitos ao decorrer do desenvolvimento assim como indicado.
+
+## Para acompanhar o desenvolvimento
+
+**Link Trello**: https://trello.com/b/2Y5uYb9Y
