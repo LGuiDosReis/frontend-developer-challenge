@@ -1,0 +1,10 @@
+/* Site Todo */
+body {
+  font-family: Helvetica;
+}
+/* Partes comum entre Cabeçalho e Rodapé */
+.caixa-headerfooter {
+  background: #707070;
+  color: #ffffff;
+  text-align: center;
+}
