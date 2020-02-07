@@ -27,24 +27,116 @@ nav ul {
   padding: 50px 0;
 }
 nav li {
-  display: inline-block;
-  border-radius: 4px;
-  background: #ffffff padding-box;
-  padding: 12px 42px;
+  display: inline;
   margin: 0 20px;
 }
 nav a {
   text-decoration: none;
   color: #888888;
+  padding: 12px 42px;
+  border-radius: 4px;
+  background: #ffffff;
+  width: 210px;
+  box-shadow: 0px 1px 6px #00000029;
+}
+/* Comum Seleção itens e Newsletter */
+main {
+  color: #888888;
+}
+section {
+  margin: 40px auto;
+  position: relative;
+  width: 930px;
+}
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.botao {
+  border: 1px solid #707070;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #888888;
+  width: 260px;
+  font-size: 16px;
+  margin: 50px 335px 0 335px;
+  display: block;
+}
+/* Seleção itens */
+.selecao-itens a {
+  text-decoration: none;
+}
+.mais-itens {
+  padding-top: 10px;
+  height: 30px;
+  text-align: center;
+}
+/* Formulário Newsletter */
+.newsletter p {
+  text-align: center;
+}
+form {
+  text-align: center;
+  width: 100%;
+  padding-top: 40px;
+  margin: 0 0;
+}
+.form-newsletter {
+  display: inline-block;
+  width: 340px;
+  margin: 0 40px;
+}
+form label {
+  display: block;
+  text-align: left;
+}
+form input {
+  width: 100%;
+  border: 1px solid #707070;
+}
+
+.enviar {
+  cursor: pointer;
+  padding: 12px 36px;
+  width: 260px;
+}
+/* Ródape */
+footer {
+  height: 190px;
+}
+footer p {
+  padding: 70px 0;
 }
 /* Responsividade */
-@media screen and (max-width: 1024px) {
-  /* Responsividade header */
+@media screen and (max-width: 768px) {
+  /* Margem versão mobile */
   h1,
   p {
-    margin: 0 15px;
+    margin: 0 10px;
   }
-  nav li {
+  /* Responsividade botões */
+  nav a {
+    display: inline-block;
     margin: 10px;
+    padding: 12px 0;
+    width: 210px;
+  }
+  .botao {
+    margin: auto;
+  }
+  /* Largura auto */
+  section,
+  .form-newsletter {
+    width: auto;
+  }
+  .form-newsletter {
+    margin: 20px;
+    display: block;
+  }
+  form input {
+    width: 100%;
   }
 }
