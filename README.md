@@ -1,18 +1,7 @@
 # Desafio | Frontend Developer
 
-## Sobre o desafio
-
-O desafio consiste no *layout* de uma *landing page* com uma grade de produtos e um formulário de *newsletter*. Seu principal objetivo é transformar este *layout* em uma página funcional.
-
-**Link do layout**: https://xd.adobe.com/spec/aa1c5781-ecac-46c9-7032-b66139998404-dc2d/
-
-**Endpoint da API**: https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1
-
-## Desenvolvimento do Desafio para vaga de Estagiário em desenvolvimento Front-END
-
-Aqui terá os arquivos do desafio de Luiz Guilherme Mendonça dos Reis.
-Junto disto também conterá commits feitos ao decorrer do desenvolvimento assim como indicado.
-
-## Para acompanhar o desenvolvimento
-
-**Link Trello**: https://trello.com/b/2Y5uYb9Y
+Planejamento de desenvolvimento:Inicialmente fiz toda base do HTML, separei por Header, 2 Sections , Footer. 
+Após a parte inicial do HTML foi sendo feita o CSS de cada uma das coisas focando nos pontos em comum,
+que todas as partes tinham e indo para cada menos coisas em comum até que chegamos na parte de coisas específicas de cada parte.
+A ultima coisa feita foi os scripts que foram divididos em 2 arquivos .js 1 de consulta na API e outro de escrita das informações, juntamente da paginação.
+Os arquivos CSS também foram dividos em 2 arquivos 1 de reset e outro de estilo.
