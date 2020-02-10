@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Linx Impulse teste front-end</title>
+    <meta lang="PT-BR">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="_css/reset.css">
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho com menu / Caixa Cabeçalho e Rodapé iguais-->
+    <header class="caixa-headerfooter">
+        <h1 class="titulo-principal">uma seleção de produtos</h1>
+        <h1 class="titulo-principal-destaque">especial para você</h1>
+        <p>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
+        <!-- Menu -->
+        <nav>
+            <ul>
+                <li><a href="">Conheça a linx</a></li>
+                <li><a href="">Ajude o algorítmo</a></li>
+                <li><a href="">Seus produtos</a></li>
+                <li><a href="">Compartilhe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Principais informações -->
+    <main>
+        <!-- Seção com seleção de produtos -->
+        <section class="selecao-produtos">
+            <h2>Sua seleção especial</h2>
+            <div class="products-list"></div>
+            <div class="next-products">
+                <a class="botao mais-itens">Ainda mais produtos aqui!</a>
+            </div>
+        </section>
+        <!-- Formulário Newsletter -->
+        <section class="newsletter">
+            <h2>Compartilhe a novidade</h2>
+            <p>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+            <form>
+                <div class="form-newsletter">
+                    <label for="nomeamigo">Nome do seu amigo:</label>
+                    <input type="text" id="nomeamigo" class="input-padrao" required>
+                </div>
+                <div class="form-newsletter">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" class="input-padrao" required>
+                </div>
+
+                <input type="submit" value="Enviar agora" class="enviar botao">
+
+            </form>
+        </section>
+    </main>
+    <!-- Rodapé / Caixa Cabeçalho e Rodapé iguais -->
+    <footer class="caixa-headerfooter">
+        <p>Testando suas habilidades em HTML, CSS e JS.<br>Linx Impulse<br>2019</p>
+    </footer>
+
+    <script src="_javascript/leituraapi.js"></script>
+    <script src="_javascript/carregaitens.js"></script>
+</body>
+
+</html>
